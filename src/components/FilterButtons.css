@@ -1,0 +1,37 @@
+.filters{
+    display:flex;
+    gap:15px;
+    margin:25px 0;
+}
+
+.filters button{
+
+padding:12px 25px;
+
+border:none;
+
+border-radius:12px;
+
+background:#202534;
+
+color:white;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.filters button:hover{
+
+transform:translateY(-3px);
+
+}
+
+.filters .active{
+
+background:linear-gradient(135deg,#6366f1,#8b5cf6);
+
+box-shadow:0 10px 25px rgba(99,102,241,.4);
+
+}
