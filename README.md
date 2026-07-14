@@ -1,75 +1,103 @@
-# React + TypeScript + Vite
+<h1 align="center">TaskFlow</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <b>A Modern Task Management Application built with React & TypeScript</b>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  Organize your daily tasks with ease using TaskFlow.<br>
+  Create, manage, search, filter, and track your tasks in a clean and responsive interface.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="center">
+  <a href="https://task-flow-kohl-two.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel" />
+  </a>
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript" />
+  <img src="https://img.shields.io/badge/Vite-Latest-646CFF?style=for-the-badge&logo=vite" />
+</p>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ Add new tasks
+- 📝 Task title & description
+- 🎯 Priority Levels (Low, Medium, High)
+- ✔️ Mark tasks as Completed
+- 🗑️ Delete tasks
+- 🔍 Search tasks instantly
+- 📂 Filter by All, Completed & Pending
+- 📊 Dynamic Task Statistics
+- 💾 Local Storage Support
+- 📱 Fully Responsive Design
+- 🎨 Beautiful Animated Gradient Background
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+<p>
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+<img src="https://skillicons.dev/icons?i=react,ts,vite,css,html" />
 
+</p>
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│── components/
+│── types/
+│── App.tsx
+│── App.css
+│── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Getting Started
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+git clone https://github.com/Pradhiba-05/Task-Flow
 ```
+
+```bash
+cd taskflow
+```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+🔗 **https://task-flow-kohl-two.vercel.app/**
+
+---
+
+## 🔮 Future Enhancements
+
+- 🌙 Dark Mode
+- 📅 Due Date Support
+- 🔔 Notifications
+- 👤 User Authentication
+- ☁️ Cloud Database
+- 📌 Categories & Labels
+- 📈 Analytics Dashboard
+
+---
+
+<h3 align="center"> 💙 Created & Deployed by</h3>
+
+<h2 align="center">Pradhiba S</h2>
+
